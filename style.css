@@ -257,6 +257,9 @@ hr{
 .doctor p{
     color: rgb(37, 14, 100);
 }
+.doctor img{
+    border-radius: 5%;
+}
 #one img{
     background-color: rgb(235, 225, 235);
 }
