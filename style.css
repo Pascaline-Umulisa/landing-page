@@ -100,10 +100,11 @@ hr{
 
 }
 .service span{
-    color: rgb(136, 36, 36);
+    color: rgb(18, 185, 236);
+    font-size: 20px;
     padding: 20px;
     border-radius: 50%;
-    background-color: rgb(125, 125, 228);
+    background-color: rgb(235, 247, 243);
 }
 .service{
     background-color: white;
@@ -112,7 +113,7 @@ hr{
     margin: 7% 3% 0% 0%;
 }
 .service p{
-    color: rgb(9, 9, 117);
+    color: rgb(47, 9, 117);
 }
 .service-type1{
     display: flex;
@@ -314,9 +315,30 @@ footer{
     /* padding-right: 15%; */
 }
 #facebook{
-    font-size: 20px;
-    border-radius: 50px;
+    font-size: 14px;
+    padding: 3px 7px 3px 7px;
+    color: white;
+    border-radius: 50%;
+    background-color: blue;
 }
-#twitter{}
-#google{}
-#linkedin{}
+#twitter{
+    font-size: 14px;
+    padding: 3px 5px 3px 5px;
+    color: white;
+    border-radius: 50%;
+    background-color: rgb(66, 215, 226);
+}
+#google{
+    font-size: 14px;
+    padding: 3px 3px 3px 3px;
+    color: white;
+    border-radius: 50%;
+    background-color: red;
+}
+#linkedin{
+    font-size: 14px;
+    padding: 3px 5px 3px 5px;
+    color: white;
+    border-radius: 50%;
+    background-color: rgb(7, 86, 133);
+}
