@@ -1,5 +1,8 @@
+body{
+    background-color: rgb(196, 235, 222);
+}
 .one{
-    background-color: rgb(232, 243, 243);
+    background-color: rgb(196, 235, 222);
     padding: 1% 10% 0% 10%;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -46,7 +49,7 @@ hr{
     color: white;
     border: none;
     border-radius: 5%;
-    background-color: rgb(122, 171, 228);
+    background-color: rgb(15, 161, 230);
 }
 .main span{
     border-radius: 50%;
@@ -54,22 +57,32 @@ hr{
     background-color: white;
     color: blue;
     margin-left: 10%;
+    box-shadow:2px 2px 10px rgb(15, 161, 230);
 }
 .main{
     width: 50%;
 }
 .picture{
-    border: solid 60px rgb(98, 98, 230);
+    border: solid 60px rgb(183, 221, 210);
     border-radius: 50%;
-    width: 35%;
-    padding-bottom: 50px;
+    width: 34%;
+    height: 350px;
+    /* padding-bottom: 20px; */
+}
+.picture img{
+    width: 400px;
+    height: 400px;
+    /* background-color: blue; */
+    margin-left: -12%;
+    margin-top: -5%;
+    /* margin-bottom: 15%; */
 }
 .container{
     display: flex;
 }
 
 .two{
-    background-color: rgb(245, 250, 250);
+    background-color: rgb(235, 247, 243);
     padding: 6% 10% 0% 10%;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -83,25 +96,33 @@ hr{
 .title p{
     max-width: 33%;
     margin: 4% 0% 0% 30%;
+    color: rgb(9, 9, 117);
 
 }
-#service span{
+.service span{
     color: rgb(136, 36, 36);
     padding: 20px;
     border-radius: 50%;
     background-color: rgb(125, 125, 228);
 }
-#service{
+.service{
     background-color: white;
     max-width: 25%;
     padding: 45px 25px;
     margin: 7% 3% 0% 0%;
 }
-.service-type{
+.service p{
+    color: rgb(9, 9, 117);
+}
+.service-type1{
     display: flex;
 }
+.service-type2{
+    display: flex;
+    padding-bottom: 10%;
+}
 .three{
-    background-color: rgb(232, 243, 243);
+    background-color: rgb(196, 235, 222);
     padding: 7% 10% 0% 10%;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -114,29 +135,30 @@ hr{
     color: white;
     border: none;
     border-radius:7%;
-    background-color: rgb(122, 171, 228);
+    background-color: rgb(15, 161, 230);
 }
 .description h1{
     font-size: 35px;
 }
 .description p{
-    color: rgb(3, 3, 65);
+    color: rgb(9, 9, 117);
 }
-.image{
-    width: 350px;
-    border-radius: 5%;
-    background-color: rgb(146, 146, 224);
-}
+  
 .image img{
-    padding: 23% 23% 23% 23%;
+    max-width: 250px;
+    height: 400px;
+    padding: 15% 15% 0% 15%;
+    border-radius: 5%;
+    background-color: rgb(200, 221, 231);
+
 }
 .description{
     max-width: 45%;
-    margin-left: 15%;
+    margin-left: 20%;
 
 }
 .four{
-    background-color: rgb(245, 250, 250);
+    background-color: rgb(235, 247, 243);
     /* padding: 6% 10% 0% 10%; */
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -151,17 +173,21 @@ hr{
 .title2 p{
     max-width: 30%;
     margin: 4% 0% 0% 25%;
+    color: rgb(28, 28, 129);
 }
 #quote1{
     font-size: 50px;
-    color: blue;
+    color: rgb(200, 228, 228);
 }
 #quote2{
     font-size: 50px;
-    color: blue;
+    color: rgb(200, 228, 228);
 }
 .comment h3{
     font-size: 18px;
+}
+.comment p{
+    color: rgb(28, 28, 129);
 }
 .comment span{
     padding-right: 10px;
@@ -184,7 +210,8 @@ hr{
 }
 .view p{
     margin-left: 40%;
-    color: blue;
+    font-weight: bold;
+    color: rgb(7, 199, 189);
 }
 #comment1{
     width:29%;
@@ -202,5 +229,94 @@ hr{
     display: flex;
 }
 .five{
+    background-color: rgb(235, 247, 243);
+    padding: 5% 10% 0% 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title3{
+    display: flex;
+    /* padding: 6% 10% 0% 10%;  */
+}
+.title3 h1{
+    font-size: 35px;
     
 }
+.title3 span{
+    margin: 4.5% 0% 0% 39.9%;
+    color: rgb(10, 188, 233);
+}
+.pictures{
+    display: flex;
+    
+}
+.doctor{
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.doctor p{
+    color: rgb(37, 14, 100);
+}
+#one img{
+    background-color: rgb(235, 225, 235);
+}
+#two img{
+    background-color: rgb(205, 240, 238);
+}
+#three img{
+    background-color: rgb(238, 232, 218);
+
+}
+.subscribe h1{
+    font-size: 40px;
+    margin-left: 12%;
+}
+.subscribe p{
+    background-color: white;
+    box-shadow: 10px 10px 30px rgb(92, 233, 243);
+    width: 620px;
+    border-radius: 7%;
+}
+.subscribe input{
+    width: 450px;
+    height: 70px;
+    font-size: 20px;
+    border: none;
+    border-top-left-radius: 7%;
+    border-bottom-left-radius: 7%;
+    
+}
+.subscribe button{
+    width: 160px;
+    height: 62px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color: rgb(15, 161, 230);
+    border-radius: 7%;
+}
+.subscribe{
+    background-color: rgb(196, 235, 222);
+    padding: 5% 0% 5% 15%;
+    border-radius: 3%;
+    margin-top: 10%;
+}
+footer{
+    padding: 5% 10% 0% 10%;
+    background-color: rgb(235, 247, 243);
+}
+.about-us{
+    display: flex;
+    
+
+}
+.about{
+    margin-right: 21%;
+    /* padding-right: 15%; */
+}
+#facebook{
+    font-size: 20px;
+    border-radius: 50px;
+}
+#twitter{}
+#google{}
+#linkedin{}
