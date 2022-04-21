@@ -1,8 +1,9 @@
 body{
-    background-color: rgb(196, 235, 222);
+    margin: 0;
+    padding: 0;
 }
 .one{
-    background-color: rgb(196, 235, 222);
+    background-color:rgb(233,250,252);
     padding: 1% 10% 0% 10%;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -48,22 +49,22 @@ hr{
     font-size: 15px;
     color: white;
     border: none;
-    border-radius: 5%;
-    background-color: rgb(15, 161, 230);
+    border-radius: 7px;
+    background-color: #45A1AB;
 }
 .main span{
     border-radius: 50%;
     padding: 3.5%;
     background-color: white;
-    color: blue;
+    color: #45A1AB;
     margin-left: 10%;
-    box-shadow:2px 2px 10px rgb(15, 161, 230);
+    box-shadow:2px 2px 10px rgb(212,241,244);
 }
 .main{
     width: 50%;
 }
 .picture{
-    border: solid 60px rgb(183, 221, 210);
+    border: solid 85px rgb(207,228,231);
     border-radius: 50%;
     width: 34%;
     height: 350px;
@@ -82,7 +83,7 @@ hr{
 }
 
 .two{
-    background-color: rgb(235, 247, 243);
+    background-color: rgb(248,254,255);
     padding: 6% 10% 0% 10%;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -111,6 +112,7 @@ hr{
     max-width: 25%;
     padding: 45px 25px;
     margin: 7% 3% 0% 0%;
+    border-radius: 5%;
 }
 .service p{
     color: rgb(47, 9, 117);
@@ -123,7 +125,7 @@ hr{
     padding-bottom: 10%;
 }
 .three{
-    background-color: rgb(196, 235, 222);
+    background-color: rgb(233,250,252);
     padding: 7% 10% 0% 10%;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -135,8 +137,8 @@ hr{
     font-size: 15px;
     color: white;
     border: none;
-    border-radius:7%;
-    background-color: rgb(15, 161, 230);
+    border-radius:10px;
+    background-color: #45A1AB;
 }
 .description h1{
     font-size: 35px;
@@ -159,7 +161,7 @@ hr{
 
 }
 .four{
-    background-color: rgb(235, 247, 243);
+    background-color: rgb(248,254,255);
     /* padding: 6% 10% 0% 10%; */
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -192,13 +194,14 @@ hr{
 }
 .comment span{
     padding-right: 10px;
-    color: yellow;
+    color: rgb(250, 167, 73);
 }
 .small-image{
-    width: 70px;
-    height:70px;
+    width: 50px;
+    height:50px;
     border-radius: 50%;
-    margin-top: 1%;
+    margin-top: 4%;
+    /* padding-top: 1%; */
 }
 .name{
     font-weight: bolder;
@@ -230,7 +233,7 @@ hr{
     display: flex;
 }
 .five{
-    background-color: rgb(235, 247, 243);
+    background-color: rgb(248,254,255);
     padding: 5% 10% 0% 10%;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -276,9 +279,9 @@ hr{
 }
 .subscribe p{
     background-color: white;
-    box-shadow: 10px 10px 30px rgb(92, 233, 243);
+    box-shadow: 10px 10px 30px rgb(205,238,241);
     width: 620px;
-    border-radius: 7%;
+    border-radius: 8px;
 }
 .subscribe input{
     width: 450px;
@@ -295,18 +298,18 @@ hr{
     font-size: 20px;
     color: white;
     border: none;
-    background-color: rgb(15, 161, 230);
-    border-radius: 7%;
+    background-color: #45A1AB;
+    border-radius: 8px;
 }
 .subscribe{
-    background-color: rgb(196, 235, 222);
+    background-color: rgb(233,250,252);
     padding: 5% 0% 5% 15%;
-    border-radius: 3%;
+    border-radius: 8px;
     margin-top: 10%;
 }
 footer{
     padding: 5% 10% 0% 10%;
-    background-color: rgb(235, 247, 243);
+    background-color: rgb(248,254,255);
 }
 .about-us{
     display: flex;
